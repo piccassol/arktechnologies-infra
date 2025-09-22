@@ -7,7 +7,7 @@
 <p><em>Complete Marketing Automation Platform That Reduces Client Concentration Risk</em></p>
 
 <!-- Main Status Badges -->
-[![Netlify Status](https://api.netlify.com/api/v1/badges/27dc8e00-891b-4b40-9ef2-fa6273c5594d/deploy-status)](https://app.netlify.com/projects/arktechnologiesai/deploys)(https://app.netlify.com/sites/arktechnologiesai/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27dc8e00-891b-4b40-9ef2-fa6273c5594d/deploy-status)](https://app.netlify.com/projects/arktechnologiesai/deploys)
 [![Docker](https://img.shields.io/badge/docker-containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)](http://localhost:3000)
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/piccassol/arktechnologies-infra/actions)
 
