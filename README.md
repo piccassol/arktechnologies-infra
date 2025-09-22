@@ -3,8 +3,7 @@
 [![Docker](https://img.shields.io/badge/docker-containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)](http://localhost:3000)
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-site-id/deploy-status)](https://app.netlify.com/sites/arktechnologiesai/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27dc8e00-891b-4b40-9ef2-fa6273c5594d/deploy-status)](https://app.netlify.com/projects/arktechnologiesai/deploys)
 ## Project Structure
 
 ```
