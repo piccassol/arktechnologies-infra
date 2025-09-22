@@ -1,5 +1,9 @@
 <div align="center">
+<<<<<<< HEAD
   <img src="./assets/ark-logo.png" alt="ARK Technologies Logo" width="400"/>
+=======
+  <img src="[https://github.com/user-attachments/assets/your-uploaded-image](https://github.com/piccassol/arktechnologies-infra/blob/main/assets/ark-logo.png)-id" alt="ARK Technologies Logo" width="400"/>
+>>>>>>> efb6b2e7e07eaff9640014fa123b9cd189d2e0cd
 
 # ARK Technologies - Enterprise Marketing Automation Platform
 
