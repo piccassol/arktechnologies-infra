@@ -332,7 +332,11 @@ export default function Home() {
                     </div>
                   )}
                   <h3 className="text-xl font-semibold mb-2">{plan.name}</h3>
+<<<<<<< Updated upstream
                   <div className="text-3xl font-bold text-white mb-2">
+=======
+                  <div className="text-3xl font-bold text-white mb-2"> {/* Changed to text-white for visibility */}
+>>>>>>> Stashed changes
                     {plan.price}
                   </div>
                   <p className="text-gray-300 mb-6">{plan.description}</p>
@@ -362,4 +366,67 @@ export default function Home() {
             <p className="text-xl text-gray-300 mb-8">
               Get a free automation audit and see exactly where your business is losing leads, missing appointments, and leaving money on the table.
             </p>
+<<<<<<< Updated upstream
             <div className="flex flex-col sm:flex-row
+=======
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button onClick={handleAuditClick} className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105">
+                Get Your Free Automation Audit
+              </button>
+              <button onClick={handleDemoClick} className="border border-gray-600 hover:border-gray-400 px-8 py-4 rounded-lg text-lg font-semibold transition-all">
+                Talk to an Expert
+              </button>
+            </div>
+            <p className="text-sm text-gray-400 mt-4">Most clients see ROI within 30-60 days • No setup fees • Cancel anytime</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-black py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-4 gap-8">
+            <div>
+              <div className="flex items-center mb-4">
+                <img 
+                  src="/ark-logo.png" 
+                  alt="ARK Technologies" 
+                  className="h-6 w-auto"
+                />
+              </div>
+              <p className="text-gray-400 text-sm">Enterprise marketing automation that captures leads, books appointments, and grows reviews—without extra staff.</p>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-4">Platform</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><a href="#" className="hover:text-white transition-colors">Lead Automation</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Appointment Booking</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Review Management</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">CRM Integration</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-4">Industries</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li><a href="#" className="hover:text-white transition-colors">Law Firms</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Contractors</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Med Spas</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Property Management</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-4">Contact</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li>sales@arktechnologies.ai</li>
+                <li>support@arktechnologies.ai</li>
+                <li>enterprise@arktechnologies.ai</li>
+              </ul>
+            </div>
+          </div>
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
+            <p>&copy; 2025 ARK Technologies AI, LLC. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );

@@ -8,7 +8,10 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=development  # Changed to development for hot reload
+    volumes:
+      - ./landing-page:/app  # Mounts local landing-page to /app in container
+      - /app/node_modules  # Excludes node_modules to avoid conflicts
     networks:
       - arktechnologies
     restart: unless-stopped
