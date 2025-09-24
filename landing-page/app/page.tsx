@@ -62,12 +62,12 @@ export default function Home() {
           <div className={`transition-all duration-1000 ${isVisible.hero ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} id="hero">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               Capture, Follow Up, and Book Customers—
-              <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent"> Without Extra Staff</span>
+              <span className="text-purple-400"> Without Extra Staff</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto">
               Done-for-you marketing automation that answers leads in minutes, cuts no-shows with reminders, and grows 5-star reviews automatically.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button onClick={handleAuditClick} className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105">
                 Get Your Free Automation Audit
               </button>
@@ -76,66 +76,6 @@ export default function Home() {
               </button>
             </div>
             <p className="text-sm text-gray-400 mt-4">Most clients see ROI within 30-60 days • No setup fees • Cancel anytime</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="bg-black py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center mb-4">
-                <img 
-                  src="/ark-logo.png" 
-                  alt="ARK Technologies" 
-                  className="h-6 w-auto"
-                />
-              </div>
-              <p className="text-gray-400 text-sm">Enterprise marketing automation that captures leads, books appointments, and grows reviews—without extra staff.</p>
-            </div>
-            <div>
-              <h4 className="text-white font-semibold mb-4">Services</h4>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="/services" className="hover:text-white transition-colors">All Services</a></li>
-                <li><a href="/services/crm-with-marketing-automation" className="hover:text-white transition-colors">CRM Automation</a></li>
-                <li><a href="/services/review-management-software" className="hover:text-white transition-colors">Review Management</a></li>
-                <li><a href="/services/lead-nurturing-software" className="hover:text-white transition-colors">Lead Nurturing</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-white font-semibold mb-4">Company</h4>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="/about-us" className="hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#industries" className="hover:text-white transition-colors">Industries</a></li>
-                <li><a href="#pricing" className="hover:text-white transition-colors">Pricing</a></li>
-                <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-white font-semibold mb-4">Contact</h4>
-              <ul className="space-y-2 text-sm text-gray-400">
-                <li>sales@arktechnologies.ai</li>
-                <li>support@arktechnologies.ai</li>
-                <li>enterprise@arktechnologies.ai</li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-            <p>&copy; 2025 ARK Technologies AI, LLC. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-} gap-4 justify-center items-center">
-              <button onClick={handleAuditClick} className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105">
-                Get Your Free Automation Audit
-              </button>
-              <button onClick={handleDemoClick} className="border border-gray-600 hover:border-gray-400 px-8 py-4 rounded-lg text-lg font-semibold transition-all">
-                See How It Works
-              </button>
-            </div>
           </div>
         </div>
       </section>
@@ -156,7 +96,7 @@ export default function Home() {
                 { metric: "$25K+", label: "Monthly Revenue Growth", description: "Average client increase" }
               ].map((item, index) => (
                 <div key={index} className="bg-gray-800/50 p-6 rounded-xl border border-gray-700 text-center hover:bg-gray-800/70 transition-all">
-                  <div className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent mb-2">
+                  <div className="text-4xl font-bold text-purple-400 mb-2">
                     {item.metric}
                   </div>
                   <div className="text-lg font-semibold mb-2">{item.label}</div>
@@ -332,11 +272,7 @@ export default function Home() {
                     </div>
                   )}
                   <h3 className="text-xl font-semibold mb-2">{plan.name}</h3>
-<<<<<<< Updated upstream
                   <div className="text-3xl font-bold text-white mb-2">
-=======
-                  <div className="text-3xl font-bold text-white mb-2"> {/* Changed to text-white for visibility */}
->>>>>>> Stashed changes
                     {plan.price}
                   </div>
                   <p className="text-gray-300 mb-6">{plan.description}</p>
@@ -366,9 +302,6 @@ export default function Home() {
             <p className="text-xl text-gray-300 mb-8">
               Get a free automation audit and see exactly where your business is losing leads, missing appointments, and leaving money on the table.
             </p>
-<<<<<<< Updated upstream
-            <div className="flex flex-col sm:flex-row
-=======
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button onClick={handleAuditClick} className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105">
                 Get Your Free Automation Audit
@@ -397,21 +330,21 @@ export default function Home() {
               <p className="text-gray-400 text-sm">Enterprise marketing automation that captures leads, books appointments, and grows reviews—without extra staff.</p>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-4">Platform</h4>
+              <h4 className="text-white font-semibold mb-4">Services</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Lead Automation</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Appointment Booking</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Review Management</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">CRM Integration</a></li>
+                <li><a href="/services" className="hover:text-white transition-colors">All Services</a></li>
+                <li><a href="/services/crm-with-marketing-automation" className="hover:text-white transition-colors">CRM Automation</a></li>
+                <li><a href="/services/review-management-software" className="hover:text-white transition-colors">Review Management</a></li>
+                <li><a href="/services/lead-nurturing-software" className="hover:text-white transition-colors">Lead Nurturing</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-4">Industries</h4>
+              <h4 className="text-white font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Law Firms</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Contractors</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Med Spas</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Property Management</a></li>
+                <li><a href="/about-us" className="hover:text-white transition-colors">About Us</a></li>
+                <li><a href="#industries" className="hover:text-white transition-colors">Industries</a></li>
+                <li><a href="#pricing" className="hover:text-white transition-colors">Pricing</a></li>
+                <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
               </ul>
             </div>
             <div>
@@ -430,3 +363,4 @@ export default function Home() {
       </footer>
     </div>
   );
+}

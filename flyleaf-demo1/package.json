@@ -1,0 +1,17 @@
+﻿{
+  "name": "flyleaf-demo1",
+  "version": "1.0.0",
+  "description": "Flyleaf CRM Demo - Marketing Automation System by ArkTechnologies",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo Build completed - static files ready"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "ArkTechnologies",
+  "license": "MIT",
+  "keywords": ["crm", "marketing", "automation", "flyleaf", "demo"]
+}

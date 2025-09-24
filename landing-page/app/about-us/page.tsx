@@ -61,7 +61,7 @@ export default function AboutPage() {
           <div className={`transition-all duration-1000 ${isVisible.hero ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} id="hero">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Automation Built for 
-              <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent"> Small Business Growth</span>
+              <span className="text-purple-400"> Small Business Growth</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8">
               Done-For-You Systems Today. Big Ideas for Tomorrow.

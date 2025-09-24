@@ -112,7 +112,7 @@ export default function ServicesPage() {
           <div className={`transition-all duration-1000 ${isVisible.hero ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} id="hero">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Done-For-You
-              <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent"> Marketing Automation</span>
+              <span className="text-purple-400"> Marketing Automation</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8">
               Capture leads, book appointments, and grow reviews without extra staff
@@ -215,7 +215,7 @@ export default function ServicesPage() {
                 {
                   title: "CRM Integration",
                   description: "All leads in one place", 
-                  icon: "🔄"
+                  icon: "📄"
                 },
                 {
                   title: "Analytics",

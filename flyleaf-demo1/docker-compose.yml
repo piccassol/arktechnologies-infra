@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  flyleaf-demo:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=production
+      - DEMO_NAME=Flyleaf CRM Pro
+      - COMPANY=ArkTechnologies
+    restart: unless-stopped
+    container_name: flyleaf-demo1
+    networks:
+      - flyleaf-network
+    volumes:
+      - demo-logs:/app/logs
+
+volumes:
+  demo-logs:
+
+networks:
+  flyleaf-network:
+    driver: bridge

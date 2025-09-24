@@ -5,21 +5,24 @@ services:
     build:
       context: ./landing-page
       dockerfile: Dockerfile
+    container_name: arktechnologies-landing
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV=development  # Changed to development for hot reload
+      - NODE_ENV=development
     volumes:
-      - ./landing-page:/app  # Mounts local landing-page to /app in container
-      - /app/node_modules  # Excludes node_modules to avoid conflicts
+      - ./landing-page:/app
+      - /app/node_modules
+      - /app/.next  # Exclude .next directory to avoid conflicts
     networks:
       - arktechnologies
     restart: unless-stopped
 
   demo:
     build:
-      context: ./flyleaf-demo
+      context: ./flyleaf-demo1  # Updated to match your folder name
       dockerfile: Dockerfile
+    container_name: arktechnologies-demo
     ports:
       - "3001:3001"
     environment:
