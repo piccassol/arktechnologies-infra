@@ -1,0 +1,16 @@
+﻿{
+  "name": "@piccassol/ark-components",
+  "version": "1.0.0",
+  "description": "React components for ARK Technologies marketing automation interfaces",
+  "main": "components.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piccassol/arktechnologies-infra.git"
+  },
+  "keywords": ["react", "components", "tailwindcss", "marketing", "automation"],
+  "author": "Noah Michél <noahmichel999@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+}
