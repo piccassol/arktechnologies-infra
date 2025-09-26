@@ -25,9 +25,8 @@ export default function Home() {
   };
 
   const handleDemoClick = () => {
-    window.open('https://calendly.com/arktechnologies-demo', '_blank');
+    window.open('https://calendly.com/arktechnologiesai/30min', '_blank');
   };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white">
       {/* Navigation */}
