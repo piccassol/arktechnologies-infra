@@ -34,15 +34,15 @@ export default function Home() {
       <nav className="fixed top-0 w-full backdrop-blur-sm z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
-              <a href="/">
-                <img 
-                  src="/ark-logo.png" 
-                  alt="ARK Technologies" 
-                  className="h-8 w-auto"
-                />
-              </a>
-            </div>
+          <div className="flex items-center">
+  <a href="/">
+    <img 
+      src="/ark-logo.png" 
+      alt="ARK Technologies" 
+      className="h-32 w-auto"
+    />
+  </a>
+</div>
             <div className="hidden md:flex space-x-8">
               <a href="/services" className="text-gray-300 hover:text-white transition-colors">Services</a>
               <a href="/about-us" className="text-gray-300 hover:text-white transition-colors">About</a>

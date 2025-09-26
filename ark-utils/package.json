@@ -1,0 +1,14 @@
+﻿{
+  "name": "@piccassol/ark-business-utils",
+  "version": "1.0.0",
+  "description": "Business automation utility functions for ARK Technologies",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piccassol/arktechnologies-infra.git"
+  },
+  "keywords": ["business", "automation", "utilities", "lead-generation", "marketing"],
+  "author": "Noah Michél <noahmichel999@gmail.com>",
+  "license": "MIT"
+}
