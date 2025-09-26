@@ -39,7 +39,7 @@ export default function Home() {
     <img 
       src="/ark-logo.png" 
       alt="ARK Technologies" 
-      className="h-32 w-auto"
+      className="h-28 w-auto"
     />
   </a>
 </div>
